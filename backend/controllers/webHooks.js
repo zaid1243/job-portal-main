@@ -48,6 +48,7 @@ export const clerkWebHooks = async (req, res) => {
     }
   } catch (error) {
     console.log(error.message);
+    console.log("first");
     res.json(error.message);
   }
 };
